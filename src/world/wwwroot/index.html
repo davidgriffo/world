@@ -3,30 +3,40 @@
 <head>
     <meta charset="utf-8" />
     <title>The World</title>
-    <link rel="stylesheet" href="Site.css"/>
+    <link rel="stylesheet" href="css/Site.css" class="headshot"/>
 </head>
 
     <body >
-        <div>
-            <h2>The World</h2>
-            <p>According to David</p>
-
-            <form>
-                <div>
-                    <label>Date:</label>
-                    <input />
-                </div>
-                <div>
-                    <label>Location:</label>
-                    <input />
-                </div>
-                <div>
-                    <input type="submit" value="Add" />
-                </div>
-            </form>
-
+        <div id="sidebar">
+            <img src="img/davidwindmill.jpg" alt="head shot" class="headshot"/>
+            <div>David Griffiths</div>
+            <ul class="menu">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </div>
-        <div> &copy; 2015 Griffo Ltd </div>
-        
+        <div id="wrapper">
+            <div id="main">
+                <h2>The World</h2>
+                <p>According to David</p>
+
+                <form>
+                    <div>
+                        <label>Date:</label>
+                        <input />
+                    </div>
+                    <div>
+                        <label>Location:</label>
+                        <input />
+                    </div>
+                    <div>
+                        <input type="submit" value="Add" />
+                    </div>
+                </form>
+
+            </div>
+            <div id="footer"> &copy; 2015 Griffo Ltd </div>
+        </div>
     </body>
 </html>
